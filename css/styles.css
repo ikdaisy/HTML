@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    background-image: url(../images/pink\ smoke.jpg);
+    background-position:bottom;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    padding:15px;
+   
+}
+
+.child1, .child2, .child3, .child4, .child5, .child6, .child7 , .child8{
+    margin: 0px 20px;
+    
+}
+.child8{
+    padding-right: 20%;
+}
+
+.child9 , .child10 , .child11 , .child12{
+    margin:0px 20px ;
+}
+
+ .child9{
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: small;
+    letter-spacing: 1px;
+ }
+   
+.season{
+    color: white;
+    margin: 150px 60px 150px 800px;
+    
+}
+
+.x{
+    text-align: left;
+    padding: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+.y{
+    text-align: left;
+    padding: 1%;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.z{
+    margin-left: 15px;
+    padding: 1%;
+    font-size: 15px;
+}
+.buttons{
+    margin:10px 10px;
+}
+
+.but{
+    padding:10px 20px ;
+    margin-right: 10px;
+    border:1px solid rgb(224, 221, 221);
+}
+
+.image{
+   
+    top: 50%;
+    left: 30%;
+    max-width: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+   
+    
+}
